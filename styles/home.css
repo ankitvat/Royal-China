@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .backz {
+    background-image: url("../assets//images/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .header {
+    font-family: "Gotham-Light";
+    font-size: 3.2vmin;
+    letter-spacing: 0.2rem;
+
+    text-transform: uppercase;
+    color: white;
+    line-height: 2;
+    display: inline-block;
+    transform: scale(1.2, 1);
+    -webkit-transform: scale(1.2, 1);
+    -moz-transform: scale(1.2, 1);
+    -o-transform: scale(1.2, 1);
+  }
+  .subtext {
+    font-size: 2vmin;
+    font-family: "Gotham-Light";
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10%;
+    line-height: 2;
+    transform: scale(1.2, 1);
+    -webkit-transform: scale(1.2, 1);
+    -moz-transform: scale(1.2, 1);
+    -o-transform: scale(1.2, 1);
+  }
+
+  @media screen and (max-width: 400px) {
+    .phoneBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 3vh;
+      border: 1px solid white;
+      width: 36vh;
+    }
+    .phoneNumber {
+      font-size: 2vmin;
+      font-family: "Gotham-Light";
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+      transform: scale(1.2, 1);
+      -webkit-transform: scale(1.2, 1);
+      -moz-transform: scale(1.2, 1);
+      -o-transform: scale(1.2, 1);
+      margin-top: 2%;
+    }
+  }
+
+  @media (min-width: 420px) and (max-width: 500px) {
+    .phoneBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 3vh;
+      border: 1px solid white;
+      width: 40vh;
+    }
+    .phoneNumber {
+      font-size: 2vmin;
+      font-family: "Gotham-Light";
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+      transform: scale(1.2, 1);
+      -webkit-transform: scale(1.2, 1);
+      -moz-transform: scale(1.2, 1);
+      -o-transform: scale(1.2, 1);
+      margin-top: 2%;
+    }
+  }
+
+  @media (min-width: 501px) and (max-width: 768px) {
+    .phoneBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 4vh;
+      border: 1px solid white;
+      width: 58%;
+    }
+    .phoneNumber {
+      font-size: 1.8vmin;
+      font-family: "Gotham-Light";
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+      transform: scale(1.2, 1);
+      -webkit-transform: scale(1.2, 1);
+      -moz-transform: scale(1.2, 1);
+      -o-transform: scale(1.2, 1);
+      margin-top: 2%;
+    }
+  }
+
+  @media (min-width: 800px) and (max-width: 1100px) {
+    .phoneBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 4vh;
+      border: 1px solid white;
+      width: 45%;
+    }
+    .phoneNumber {
+      font-size: 1.8vmin;
+      font-family: "Gotham-Light";
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+      transform: scale(1.2, 1);
+      -webkit-transform: scale(1.2, 1);
+      -moz-transform: scale(1.2, 1);
+      -o-transform: scale(1.2, 1);
+      margin-top: 2%;
+    }
+  }
+  @media (min-width: 1150px) and (max-width: 1440px) {
+    .phoneBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 4vh;
+      border: 1px solid white;
+      width: 32%;
+    }
+    .phoneNumber {
+      font-size: 1.8vmin;
+      font-family: "Gotham-Light";
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+      transform: scale(1.2, 1);
+      -webkit-transform: scale(1.2, 1);
+      -moz-transform: scale(1.2, 1);
+      -o-transform: scale(1.2, 1);
+      margin-top: 2%;
+    }
+  }
+  @media screen and (min-width: 1441px) {
+    .phoneBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 4vh;
+      border: 1px solid white;
+      width: 32vw;
+    }
+    .phoneNumber {
+      font-size: 1.8vmin;
+      font-family: "Gotham-Light";
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+      transform: scale(1.2, 1);
+      -webkit-transform: scale(1.2, 1);
+      -moz-transform: scale(1.2, 1);
+      -o-transform: scale(1.2, 1);
+      margin-top: 2%;
+    }
+  }
+}
