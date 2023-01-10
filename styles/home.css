@@ -8,6 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     box-sizing: border-box;
+    object-fit: cover;
   }
   .logoImage {
     z-index: 0;

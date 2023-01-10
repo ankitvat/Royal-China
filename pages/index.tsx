@@ -6,8 +6,11 @@ const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-5 backz">
       <Head>
-        <title>Create Next App</title>
+        <title>Royal-China</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#080707" />
+        <meta name="msapplication-navbutton-color" content="#080707" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="#080707" />
       </Head>
 
       <Image
