@@ -30,7 +30,7 @@ const Home: NextPage = () => {
   }, []);
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-5 backz">
+    <div className="flex flex-col overflow-hidden overflow-x-hidden  items-center justify-center py-5">
       <Head>
         <title>Royal-China</title>
         <link rel="icon" href="/favicon.ico" />
@@ -61,9 +61,9 @@ const Home: NextPage = () => {
                 display: "none",
               },
             }}
-            transition={{ ease: "easeOut", duration: 14 }}
+            transition={{ ease: "easeOut", duration: 14, repeat: Infinity }}
             style={{
-              position: "absolute",
+              position: "fixed",
               top: "30%",
               left: 0,
             }}
@@ -85,9 +85,9 @@ const Home: NextPage = () => {
                 display: "none",
               },
             }}
-            transition={{ ease: "easeOut", duration: 18 }}
+            transition={{ ease: "easeOut", duration: 18, repeat: Infinity }}
             style={{
-              position: "absolute",
+              position: "fixed",
               top: "40%",
               right: 0,
             }}

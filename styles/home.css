@@ -6,11 +6,7 @@
   .logoImage {
     z-index: 0;
   }
-  .backz {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
+
   .bgwrap {
     position: fixed;
     height: 100vh;
