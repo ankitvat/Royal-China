@@ -7,12 +7,17 @@
     background-image: url("../assets//images/back.png");
     background-size: cover;
     background-repeat: no-repeat;
+    box-sizing: border-box;
+  }
+  .logoImage {
+    z-index: 0;
   }
   .header {
     font-family: "Gotham-Light";
     font-size: 3.2vmin;
     letter-spacing: 0.2rem;
-
+    z-index: 1;
+    position: relative;
     text-transform: uppercase;
     color: white;
     line-height: 2;

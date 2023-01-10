@@ -13,7 +13,6 @@ const Home: NextPage = () => {
       <Image
         src={logo}
         alt="logo-image"
-        priority
         className="logoImage"
         height="300"
         width="400"
