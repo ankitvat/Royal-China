@@ -34,8 +34,11 @@
     -moz-transform: scale(1.2, 1);
     -o-transform: scale(1.2, 1);
   }
+  #top {
+    margin-top: 10%;
+  }
   .subtext {
-    font-size: 2vmin;
+    font-size: 1.4vw;
     font-family: "Gotham-Light";
     letter-spacing: 0.1rem;
     text-transform: uppercase;
@@ -122,6 +125,19 @@
       -o-transform: scale(1.2, 1);
       margin-top: 2%;
     }
+    .subtext {
+      font-size: 2vmin;
+      font-family: "Gotham-Light";
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: white;
+      margin-top: 10%;
+      line-height: 2;
+      transform: scale(1.2, 1);
+      -webkit-transform: scale(1.2, 1);
+      -moz-transform: scale(1.2, 1);
+      -o-transform: scale(1.2, 1);
+    }
   }
   @media screen and (max-width: 500px) {
     .phoneBox {
@@ -147,6 +163,19 @@
       -o-transform: scale(1.2, 1);
       margin-top: 2%;
     }
+    .subtext {
+      font-size: 2vmin;
+      font-family: "Gotham-Light";
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: white;
+      margin-top: 10%;
+      line-height: 2;
+      transform: scale(1.2, 1);
+      -webkit-transform: scale(1.2, 1);
+      -moz-transform: scale(1.2, 1);
+      -o-transform: scale(1.2, 1);
+    }
   }
   @media screen and (max-width: 400px) {
     .phoneBox {
@@ -159,6 +188,19 @@
       width: 65%;
       max-width: 500px;
     }
+    .subtext {
+      font-size: 2vmin;
+      font-family: "Gotham-Light";
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: white;
+      margin-top: 10%;
+      line-height: 2;
+      transform: scale(1.2, 1);
+      -webkit-transform: scale(1.2, 1);
+      -moz-transform: scale(1.2, 1);
+      -o-transform: scale(1.2, 1);
+    }
   }
   @media screen and (max-width: 350px) {
     .phoneBox {
@@ -170,6 +212,19 @@
       border: 1px solid white;
       width: 70%;
       max-width: 500px;
+    }
+    .subtext {
+      font-size: 2vmin;
+      font-family: "Gotham-Light";
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: white;
+      margin-top: 10%;
+      line-height: 2;
+      transform: scale(1.2, 1);
+      -webkit-transform: scale(1.2, 1);
+      -moz-transform: scale(1.2, 1);
+      -o-transform: scale(1.2, 1);
     }
   }
 }
