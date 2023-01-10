@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 @layer components {
-  .backz {
-    background-image: url("../assets//images/back.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
-    object-fit: cover;
-  }
   .logoImage {
     z-index: 0;
+  }
+  .bgwrap {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
   }
   .header {
     font-family: "Gotham-Light";
