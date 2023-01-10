@@ -42,7 +42,7 @@ const Home: NextPage = () => {
         our restaurant is open for service
       </h2>
       <div className="phoneBox m-5">
-        <h2 className="phoneNumber">call +91 11-69020000 for reservation</h2>
+        <h3 className="phoneNumber">call +91 11-69020000 for reservation</h3>
       </div>
     </div>
   );
