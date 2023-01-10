@@ -61,7 +61,12 @@ const Home: NextPage = () => {
                 display: "none",
               },
             }}
-            transition={{ ease: "easeOut", duration: 14, repeat: Infinity }}
+            transition={{
+              ease: "easeOut",
+              duration: 18,
+              repeat: Infinity,
+              repeatType: "loop",
+            }}
             style={{
               position: "fixed",
               top: "30%",
@@ -85,7 +90,12 @@ const Home: NextPage = () => {
                 display: "none",
               },
             }}
-            transition={{ ease: "easeOut", duration: 18, repeat: Infinity }}
+            transition={{
+              ease: "easeOut",
+              duration: 18,
+              repeat: Infinity,
+              repeatType: "loop",
+            }}
             style={{
               position: "fixed",
               top: "40%",
