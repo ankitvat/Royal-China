@@ -147,6 +147,9 @@
     }
   }
   @media screen and (max-width: 500px) {
+    .logoImage {
+      padding-top: 20%;
+    }
     .phoneBox {
       display: flex;
       justify-content: center;
@@ -185,8 +188,8 @@
     }
   }
   @media screen and (max-width: 400px) {
-    .backz {
-      padding-top: 4em;
+    .logoImage {
+      padding-top: 20%;
     }
     .phoneBox {
       display: flex;
@@ -226,8 +229,8 @@
     }
   }
   @media screen and (max-width: 350px) {
-    .backz {
-      padding-top: 4em;
+    .logoImage {
+      padding-top: 20%;
     }
     .phoneBox {
       display: flex;

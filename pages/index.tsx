@@ -40,7 +40,7 @@ const Home: NextPage = () => {
   }, []);
 
   return (
-    <div className="flex flex-col overflow-hidden overflow-x-hidden  items-center justify-center py-10 backz ">
+    <div className="flex flex-col overflow-hidden overflow-x-hidden  items-center justify-center py-10 backz">
       <Head>
         <title>Royal-China</title>
         <link rel="icon" href="/favicon.ico" />
@@ -90,6 +90,7 @@ const Home: NextPage = () => {
               width={300}
               quality={100}
               alt="bird-img"
+              className="logoImg"
             />
           </motion.div>
           <motion.div
