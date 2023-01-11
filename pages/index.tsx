@@ -129,8 +129,8 @@ const Home: NextPage = () => {
         alt="logo-image"
         className="logoImage"
         priority
-        height={isMobile ? 100 : 300}
-        width={isMobile ? 200 : 400}
+        height={isMobile ? 100 : 270}
+        width={isMobile ? 200 : 370}
       />
 
       <h1 className="flex min-w-fit header">website under maintenance</h1>
