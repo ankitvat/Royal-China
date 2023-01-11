@@ -76,29 +76,29 @@ const Home: NextPage = () => {
         <>
           <motion.div
             animate={{
-              x: 600,
-              y: -600,
+              x: 1200,
+              y: -700,
               transitionEnd: {
                 display: "none",
               },
             }}
             transition={{
               ease: "easeOut",
-              duration: 18,
+              duration: 16,
               repeat: Infinity,
               repeatType: "loop",
             }}
             style={{
               position: "fixed",
               top: "30%",
-              left: 0,
+              left: -400,
             }}
           >
             <Image
-              src={birdRight}
-              height={300}
+              src={birdLeft}
+              height={280}
               priority
-              width={300}
+              width={280}
               quality={100}
               alt="bird-img"
               className="logoImg"
@@ -106,29 +106,29 @@ const Home: NextPage = () => {
           </motion.div>
           <motion.div
             animate={{
-              x: -400,
-              y: 700,
+              x: -600,
+              y: 600,
               transitionEnd: {
                 display: "none",
               },
             }}
             transition={{
               ease: "easeOut",
-              duration: 18,
+              duration: 16,
               repeat: Infinity,
               repeatType: "loop",
             }}
             style={{
               position: "fixed",
               top: "40%",
-              right: 0,
+              right: -300,
             }}
           >
             <Image
-              src={birdLeft}
-              height={430}
+              src={birdRight}
+              height={380}
               priority
-              width={430}
+              width={380}
               quality={100}
               alt="bird-img"
             />
