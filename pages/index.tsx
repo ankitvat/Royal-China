@@ -76,7 +76,7 @@ const Home: NextPage = () => {
         <>
           <motion.div
             animate={{
-              x: 1200,
+              x: 1400,
               y: -700,
               transitionEnd: {
                 display: "none",
@@ -84,7 +84,7 @@ const Home: NextPage = () => {
             }}
             transition={{
               ease: "easeOut",
-              duration: 16,
+              duration: 19,
               repeat: Infinity,
               repeatType: "loop",
             }}
@@ -106,7 +106,7 @@ const Home: NextPage = () => {
           </motion.div>
           <motion.div
             animate={{
-              x: -600,
+              x: -800,
               y: 600,
               transitionEnd: {
                 display: "none",
@@ -114,7 +114,7 @@ const Home: NextPage = () => {
             }}
             transition={{
               ease: "easeOut",
-              duration: 16,
+              duration: 18,
               repeat: Infinity,
               repeatType: "loop",
             }}
