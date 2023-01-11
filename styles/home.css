@@ -195,7 +195,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 3%;
+      height: 4%;
       max-height: 60px;
       border: 1px solid white;
       width: 65%;
@@ -208,10 +208,10 @@
       text-transform: uppercase;
       color: white;
       text-align: center;
-      transform: scale(1.2, 1);
-      -webkit-transform: scale(1.2, 1);
-      -moz-transform: scale(1.2, 1);
-      -o-transform: scale(1.2, 1);
+      transform: scale(1.18, 1);
+      -webkit-transform: scale(1.18, 1);
+      -moz-transform: scale(1.18, 1);
+      -o-transform: scale(1.18, 1);
       margin-top: 2%;
     }
     .subtext {
