@@ -40,7 +40,7 @@ const Home: NextPage = () => {
   }, []);
 
   return (
-    <div className="flex flex-col overflow-hidden overflow-x-hidden  items-center justify-center backz ">
+    <div className="flex flex-col overflow-hidden overflow-x-hidden  items-center justify-center py-10 backz ">
       <Head>
         <title>Royal-China</title>
         <link rel="icon" href="/favicon.ico" />
