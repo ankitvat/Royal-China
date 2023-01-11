@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 
 const Home: NextPage = () => {
   const [isDesktop, setDesktop] = React.useState(false);
+  const [isMobile, setMobile] = React.useState(false);
 
   React.useEffect(() => {
     if (window.innerWidth > 1430) {
@@ -17,12 +18,21 @@ const Home: NextPage = () => {
     } else {
       setDesktop(false);
     }
-
+    if (window.innerWidth < 500) {
+      setMobile(true);
+    } else {
+      setMobile(false);
+    }
     const updateMedia = () => {
       if (window.innerWidth > 1430) {
         setDesktop(true);
       } else {
         setDesktop(false);
+      }
+      if (window.innerWidth < 500) {
+        setMobile(true);
+      } else {
+        setMobile(false);
       }
     };
     window.addEventListener("resize", updateMedia);
@@ -30,7 +40,7 @@ const Home: NextPage = () => {
   }, []);
 
   return (
-    <div className="flex flex-col overflow-hidden overflow-x-hidden  items-center justify-center py-5">
+    <div className="flex flex-col overflow-hidden overflow-x-hidden  items-center justify-center backz ">
       <Head>
         <title>Royal-China</title>
         <link rel="icon" href="/favicon.ico" />
@@ -119,8 +129,8 @@ const Home: NextPage = () => {
         alt="logo-image"
         className="logoImage"
         priority
-        height="300"
-        width="400"
+        height={isMobile ? 100 : 300}
+        width={isMobile ? 200 : 400}
       />
 
       <h1 className="flex min-w-fit header">website under maintenance</h1>

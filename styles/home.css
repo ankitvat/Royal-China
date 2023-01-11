@@ -54,8 +54,7 @@
     height: 4%;
     max-height: 60px;
     border: 1px solid white;
-    width: 50%;
-    max-width: 460px;
+    width: 32vw;
   }
   .phoneNumber {
     font-size: 1vw;
@@ -77,10 +76,22 @@
       justify-content: center;
       align-items: center;
       height: calc(1em + 1vh);
-      max-width: 100px;
+
       border: 1px solid white;
-      width: 36%;
-      max-width: 500px;
+      width: 48vw;
+    }
+    .subtext {
+      font-size: 2vw;
+      font-family: "Gotham-Light";
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: white;
+      margin-top: 10%;
+      line-height: 2;
+      transform: scale(1.2, 1);
+      -webkit-transform: scale(1.2, 1);
+      -moz-transform: scale(1.2, 1);
+      -o-transform: scale(1.2, 1);
     }
     .phoneNumber {
       font-size: 1.5vmin;
@@ -174,6 +185,9 @@
     }
   }
   @media screen and (max-width: 400px) {
+    .backz {
+      padding-top: 4em;
+    }
     .phoneBox {
       display: flex;
       justify-content: center;
@@ -212,6 +226,9 @@
     }
   }
   @media screen and (max-width: 350px) {
+    .backz {
+      padding-top: 4em;
+    }
     .phoneBox {
       display: flex;
       justify-content: center;
