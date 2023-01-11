@@ -47,6 +47,21 @@
     -o-transform: scale(1.2, 1);
   }
 
+  @media screen and (width: 1920px) {
+    .phoneNumber {
+      font-size: 1vw;
+      font-family: "Gotham-Light";
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+      color: red;
+      text-align: center;
+      transform: scale(1.2, 1);
+      -webkit-transform: scale(1.2, 1);
+      -moz-transform: scale(1.2, 1);
+      -o-transform: scale(1.2, 1);
+    }
+  }
+
   .phoneBox {
     display: flex;
     justify-content: center;

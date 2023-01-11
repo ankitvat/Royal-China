@@ -11,8 +11,14 @@ import { motion } from "framer-motion";
 const Home: NextPage = () => {
   const [isDesktop, setDesktop] = React.useState(false);
   const [isMobile, setMobile] = React.useState(false);
+  const [isWindows, setWindows] = React.useState(false);
 
   React.useEffect(() => {
+    if (window.innerWidth === 1920) {
+      setWindows(true);
+    } else {
+      setWindows(false);
+    }
     if (window.innerWidth > 1430) {
       setDesktop(true);
     } else {
@@ -24,6 +30,11 @@ const Home: NextPage = () => {
       setMobile(false);
     }
     const updateMedia = () => {
+      if (window.innerWidth === 1920) {
+        setWindows(true);
+      } else {
+        setWindows(false);
+      }
       if (window.innerWidth > 1430) {
         setDesktop(true);
       } else {
@@ -137,11 +148,13 @@ const Home: NextPage = () => {
       <h1 className="flex min-w-fit header">website under maintenance</h1>
       <h1 className="flex min-w-fit  header">we'll be back soon!</h1>
 
-      <h2 className="flex min-w-fit text-center subtext">
+      <h2 className="flex min-w-fit text-center subtext ">
         our restaurant is open for service
       </h2>
-      <div className="phoneBox m-5">
-        <h3 className="phoneNumber">call +91 11-69020000 for reservation</h3>
+      <div className="phoneBox m-5 items-center justify-center flex flex-row text-center">
+        <h3 className="phoneNumber" style={{ marginTop: isWindows ? 0 : "2%" }}>
+          call +91 11-69020000 for reservation
+        </h3>
       </div>
     </div>
   );
