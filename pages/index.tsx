@@ -77,7 +77,9 @@ const Home: NextPage = () => {
           <motion.div
             animate={{
               x: 1400,
+              x1: 200,
               y: -700,
+              y1: -400,
               transitionEnd: {
                 display: "none",
               },
