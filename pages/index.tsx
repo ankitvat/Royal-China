@@ -57,7 +57,10 @@ const Home: NextPage = () => {
   return (
     <div className="flex flex-col overflow-hidden overflow-x-hidden  items-center justify-center py-10 backz">
       <Head>
-        <title>Royal-China</title>
+        <title>
+          Royal China | Chinese Restaurants in Nehru Place, South Delhi, Delhi,
+          Chinese Restaurants Near Me{" "}
+        </title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="theme-color" content="#080707" />
         <meta name="msapplication-navbutton-color" content="#080707" />
