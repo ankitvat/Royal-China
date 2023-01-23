@@ -14,7 +14,11 @@ const Home: NextPage = () => {
   const [isWindows, setWindows] = React.useState(false);
 
   React.useEffect(() => {
-    if (window.innerWidth === 1920) {
+    if (
+      (window.innerWidth === 1920 && window.innerHeight === 1080) ||
+      (window.innerWidth === 1600 && window.innerHeight === 900) ||
+      window.innerWidth === 1980
+    ) {
       setWindows(true);
     } else {
       setWindows(false);
